@@ -1,0 +1,37 @@
+## Terrain Generator ##
+
+
+Upon running the program:
+ i) First insert size of terrain (50 - 300)
+ ii) Specify which height generation algorithm to use:
+ 		0 : circle algorithm (looks best if used for large terrain sizes)
+ 		1 : fault algorithm  (looks best if used for small terrain sizes)
+
+
+Extra features implemented:
+1. 2D representation of the map, but did not use a grayscale, rather I used a different color scale (extra feature #3)
+2. Implemented an addition height generation algorithm using the fault algorithm (extra feature #2)
+3. Improved map colouring (ONLY WORKS WHEN LIGHT MODE IS TOGGLED OFF) (extra feature #7)
+
+
+Commands:
+	
+	'Q'  -   Quit program
+	'L'  -	 Toggle Lights on/off
+	'M'  -   Turn ON material mode
+
+	'C'  -   Move Light #1 to the left
+	'V'  -   Move Light #1 to the right
+	'D'  -   Move Light #1 up
+	'F'  - 	 Move Light #1 down
+
+	For light #2 movement use the same keys C,V,D,F but hold the ALT key
+
+	'W'  - 	 Alternate between solid shape, or wireframe
+	'T'  -   Toggle between QUADS or TRIANGLE primitives (must be in wireframe mode to see the difference)
+
+	'-'  -   Zoom out
+	'+'  -   Zoom in
+
+	'R'  -   Resets a new random board (slow with large sizes :[ )
+
